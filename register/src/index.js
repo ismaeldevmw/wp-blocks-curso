@@ -1,9 +1,11 @@
 import { registerBlockType } from '@wordpress/blocks';
+import edit from './edit';
+import './sytles.scss';
 
 registerBlockType('plz/register', {
   title: 'Register',
   category: 'widgets',
   icon: 'admin-users',
-  edit: () => <h2>Register backend</h2>,
+  edit,
   save: () => <h2>Save frontend</h2>,
 });

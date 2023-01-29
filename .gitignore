@@ -1,6 +1,9 @@
 # Created by https://www.toptal.com/developers/gitignore/api/windows,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=windows,node
 
+## @WordPress/Scripts build files generated
+register/build
+
 ### Node ###
 # Logs
 logs
