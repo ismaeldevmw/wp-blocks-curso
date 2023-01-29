@@ -14,7 +14,6 @@
     "lint:md:docs": "wp-scripts lint-md-docs",
     "lint:pkg-json": "wp-scripts lint-pkg-json",
     "packages-update": "wp-scripts packages-update",
-    "packages-update:my-wp-version": "wp-scripts packages-update --dist-tag=wp-5.8.",
     "plugin-zip": "wp-scripts plugin-zip",
     "start": "wp-scripts start",
     "start:register": "wp-scripts start ./register/src/index.js --output-path=./register/build",
