@@ -34,7 +34,7 @@ const Edit = (props) => {
           <RichText
             tagName="h1"
             placeholder="Escribe un título..."
-            className="signin_titulo"
+            className="signin__titulo"
             value={title}
             onChange={(newTitle) => setAttributes({ title: newTitle })}
           />
