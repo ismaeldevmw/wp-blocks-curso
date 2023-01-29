@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=window.wp.element;(0,window.wp.blocks.registerBlockType)("plz/register",{title:"Register",category:"widgets",icon:"admin-users",edit:()=>(0,e.createElement)("h2",null,"Register backend"),save:()=>(0,e.createElement)("h2",null,"Save frontend")})})();
