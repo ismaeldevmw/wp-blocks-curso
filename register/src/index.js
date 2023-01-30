@@ -25,6 +25,10 @@ registerBlockType('plz/register', {
       type: 'string',
       default: 'Password',
     },
+    text: {
+      source: 'html',
+      selector: 'p',
+    },
   },
   edit,
   save,

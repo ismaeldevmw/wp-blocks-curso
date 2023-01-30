@@ -2,7 +2,7 @@ import { RichText } from '@wordpress/block-editor';
 
 const Save = (props) => {
   const { className, attributes } = props;
-  const { title, nameLabel, emailLabel, passwordLabel } = attributes;
+  const { title, nameLabel, emailLabel, passwordLabel, text } = attributes;
   return (
     <div className={className}>
       <div className="signin__container">
@@ -11,6 +11,7 @@ const Save = (props) => {
           className="signin__titulo"
           value={title}
         />
+        {text && <RichText.Content tagName="p" value={text} />}
         <form className="signin__form" id="signup">
           <div className="signin__name name--campo">
             <label for="Name">{nameLabel}</label>
