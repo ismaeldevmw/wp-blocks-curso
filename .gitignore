@@ -3,6 +3,7 @@
 
 ## @WordPress/Scripts build files generated
 register/build
+news/build
 
 ### Node ###
 # Logs
