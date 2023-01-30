@@ -8,5 +8,10 @@
   "keywords":["news", "posts", "plz"],
   "version": "0.0.1",
   "textdomain": "plz",
+  "attributes": {
+    "category": {
+      "type": "integer"
+    }
+  },
   "editorScript": "file:./build/index.js"
 }
